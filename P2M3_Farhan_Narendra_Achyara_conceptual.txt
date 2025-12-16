@@ -1,0 +1,29 @@
+Jawab pertanyaan berikut dengan menggunakan kalimat Anda sendiri:
+
+Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+NoSQL atau not only SQL adalah salah satu jenis penyimpanan database yang berbeda dengan SQL karena NoSQL tidak terstruktur penyimpanan databasenya.
+NoSQL juga memiliki persyaratan pengisian database yang tidak seketat SQL pada umumnya. Selain itu struktur NoSQL lebih bervariasi daripada SQL biasanya dan cocok untuk big data seperti perusahaan teknologi.
+Contoh NoSQL adalah ElasticSearch, Hadoop, MongoDB.
+
+Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+NoSQL dibutuhkan ketika kita memiliki data yang tidak terstruktur, datanya dalam jumlah yang besar, data yang membutuhkan komputasi yang tidak terlalu lama,
+dan aplikasi yang digunakan berupa sosial media dan streaming.
+
+Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+MongoDB, keunggulan dari MongoDB adalah querynya lebih simpel, pengisian database lebih mudah karena menggunakan BSON daripada JSON
+Apache Cassandra, keunggulan dari Apache Cassandra adalah databasenya open source, databasenya dapat menoleransi kesalahan pada database, dan datanya highly scalable
+
+Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+Airflow adalah proses otomatisasi kodingan yang sudah dibuat dengan cara mentrigger kodingan, menghubungkan kodingan dalam proses 
+ETL (Extract, Transform, dan Load), dan memonitor kodingan apakah bisa jalan atau tidak dalam rentang waktu tertentu.
+Selain itu, airflow memiliki fitur jadwal dalam trigger data sehingga dapat dilakukan maintanace secara rutin.
+
+Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+Great Expectation adalah library di python yang digunakan untuk validasi data seperti cek completeness, adanya missing value, 
+rules, monitoring data, dll. Hal tersebut dilakukan untuk memastikan kualitas data yang akan disampaikan ke data scientist maupun analyst sebagai data engineer.
+
+
+Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+Batch processing adalah proses otomatisasi pengolahan data di dalam program tanpa bantuan manusia untuk trigger kodingannya. 
+Contoh kasus penggunaannya adalah otomatisasi pengolahan data menggunakan airflow, AWS, microsoft azure.
+Tools yang digunakan untuk batch processing adalah apache hadoop, AWS Glue, dan Apache Cassandra.
