@@ -21,7 +21,6 @@ Contoh:
 
 ## Data
 `Data yang digunakan adalah database dari Kaggle berupa csv hasil record perusahaan The Global Superstore.`
-`Kolom yang digunakan dalam analisis adalah:`
 
 ## Method
 `Metode yang digunakan adalah proses ETL menggunakan apache airflow untuk otomatisasi kodingan dari pengambilan database dari PostgreSQL, kemudian dilakukan cleaning data di Python, dan load data menggunakan Elasticsearch. Kemudian validasi data menggunakan Great Expectation`
